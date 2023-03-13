@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to My Poll System</title>
+</head>
+{% block content %}
+<body>
+    <h1>Welcome to My Poll System</h1>
+    <p>Please click the button below to access the polls:</p>
+    <a href="{% url 'Poll_System:index' %}" class="btn btn-primary">Go to Polls</a>
+</body>
+{% endblock %}
+</html>
